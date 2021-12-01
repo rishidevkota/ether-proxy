@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"./proxy"
+	"github.com/rishidevkota/ether-proxy/proxy"
 
 	"github.com/goji/httpauth"
 	"github.com/gorilla/mux"

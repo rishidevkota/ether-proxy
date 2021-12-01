@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"../rpc"
-	"../util"
+	"github.com/rishidevkota/ether-proxy/rpc"
+	"github.com/rishidevkota/ether-proxy/util"
 )
 
 func (s *ProxyServer) StatsIndex(w http.ResponseWriter, r *http.Request) {
